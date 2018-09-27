@@ -28,6 +28,11 @@
             "ports": [],
             "source": "data.csv",
             "target": "createSubset.R"
+        },
+        {
+            "ports": [],
+            "source": "createSubset.R",
+            "target": "smallerFile.csv"
         }
     ],
     "nodes": [
@@ -48,6 +53,6 @@
             "name": "smallerFile.csv"
         }
     ],
-    "updated_at": "2018-09-27 15:27:27",
+    "updated_at": "2018-09-27 15:27:36",
     "url": "https://github.com/fall2018-saltz/rohan_mahajan"
 }
