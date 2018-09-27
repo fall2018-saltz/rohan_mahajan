@@ -30,7 +30,12 @@
             "target": "createSubset.R"
         },
         {
-            "ports": [],
+            "ports": [
+                {
+                    "output": "subsetDF",
+                    "type": "csv"
+                }
+            ],
             "source": "createSubset.R",
             "target": "smallerFile.csv"
         }
@@ -53,6 +58,6 @@
             "name": "smallerFile.csv"
         }
     ],
-    "updated_at": "2018-09-27 15:27:36",
+    "updated_at": "2018-09-27 15:28:10",
     "url": "https://github.com/fall2018-saltz/rohan_mahajan"
 }
